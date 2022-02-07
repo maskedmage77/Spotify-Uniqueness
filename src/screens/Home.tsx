@@ -156,12 +156,14 @@ export default function Home() {
               )}</h2>
             </div>
             <div className='moreInfo'>
-              { showModal ?
-                <audio controls> 
-                  <source src={selectedTrack.preview_url} type="audio/ogg" />
-                  Your browser does not support the audio element.
-                </audio>
-              : null }
+              <a className="buttonLike" href={selectedTrack.uri}>Listen Now</a>
+              <a className="buttonLike" href={selectedTrack.album.external_urls.spotify}>View Album</a>
+                {/* { showModal ?
+                  <audio controls> 
+                    <source src={selectedTrack.preview_url} type="audio/ogg" />
+                    Your browser does not support the audio element.
+                  </audio>
+                : null } */}
             </div>
           </div>
         </div> 

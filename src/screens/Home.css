@@ -18,6 +18,7 @@
   gap: 1em;
   margin-top: 2em;
   margin-bottom: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 .score h1 {
@@ -170,8 +171,11 @@
 }
 
 .trackModal .moreInfo {
+  display: flex;
+  gap: 1em;
   grid-column-start: 1;
   grid-column-end: 3;
+
 }
 
 .trackModal audio {
@@ -204,6 +208,15 @@
 .trackModal h2 {
   margin: 0.5em;
   font-size: 1.5em;
+}
+
+.buttonLike {
+  background-color: #303030;
+  padding: 1em;
+  color: white;
+  display: inline-block;
+  border-radius: 0.5em;
+  text-decoration: none;
 }
 
 .closeIcon {
