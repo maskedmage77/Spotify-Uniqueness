@@ -8,6 +8,8 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-family: 'GT Pressura Mono Regular', sans-serif;
+    color: white;
+    background-color: #101010;
 }
